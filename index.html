@@ -1,0 +1,27 @@
+<!DOCTYPE html> <!--HTML 5-->
+<html lang="pt-br"> <!--INICIO do HTML em PT-BR-->
+<head> <!--TAGS de METADADOS-->
+    <meta charset="UTF-8"> <!--CADEIA DE CARACTERES UNIVERSAL-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--RESPONSIVIDADE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--FONTES do GOOGLE-->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet"> <!--FONTES do GOOGLE-->
+    <link rel="stylesheet" href="src/styles/style.css"> <!--IMPORTA o CSS-->
+    <title>Calcular IMC</title> <!--TITULO do NAVEGADOR-->
+</head> <!--FIM da TAGS de METADADOS-->
+<body> <!--INICIO do CONTEÚDO-->
+    <main> <!--INICIO do CONTEÚDO PRINCIPAL-->
+        <section> <!--INICIO da SEÇÃO PRINCIPAL-->
+            <h1>CALCULAR IMC</h1> <!--TITULO-->
+            <form action="#"> <!--INICIO do FORMULÁRIO-->
+                <label for="weight">Digite o seu peso: </label> <!--RÓTULO do INPUT-->
+                <input type="number" id="weight" name="weight"> <!--CAMPO de ENTRADA-->
+                <label for="height">Digite a sua Altura: </label> <!--ROTULO do INPUT-->
+                <input type="number" id="height" name="height"> <!--CAMPO de ENTRADA-->
+                <input type="button" value="Calcular IMC" id="calcularBtn"> <!--BOTÃO de CALCULAR-->
+            </form> <!--FIM do FORMULÁRIO-->
+            <p id="resultado"></p> <!--EXIBE o RESULTADO-->
+        </section> <!--FIM da SEÇÃO PRINCIPAL-->
+    </main> <!--FIM do CONTEÚDO PRINCIPAL-->
+    <script src="src/scripts/script.js"></script> <!--IMPORTA o JAVASCRIPT-->
+</body> <!--FIM do CONTEÚDO HTML-->
+</html> <!--FIM do HTML-->
